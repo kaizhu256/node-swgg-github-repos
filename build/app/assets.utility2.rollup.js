@@ -24089,35 +24089,33 @@ local.assetsDict['/assets.swgg.html'] = local.assetsDict['/assets.index.default.
 /* validateLineSortedReset */\n\
 /* margin */\n\
 .swggUiContainer li {\n\
-    margin-bottom: 10px;\n\
+    margin-top: 10px;\n\
 }\n\
 .swggUiContainer ol,\n\
-.swggUiContainer ul {\n\
+.swggUiContainer ul,\n\
+.swggUiContainer .td {\n\
     margin-left: 20px;\n\
 }\n\
 .swggUiContainer .description,\n\
+.swggUiContainer .label,\n\
 .swggUiContainer .operation,\n\
+.swggUiContainer .operation > form > div,\n\
+.swggUiContainer .operation > form > pre,\n\
 .swggUiContainer .resource,\n\
 .swggUiContainer > div,\n\
 .swggUiContainer > ol,\n\
 .swggUiContainer > pre,\n\
 .swggUiContainer > .info > div,\n\
+.swggUiContainer > .info > ul,\n\
 .swggUiContainer > .info > .button,\n\
 .swggUiContainer > .info > .hx {\n\
-    margin-bottom: 20px;\n\
+    margin-top: 20px;\n\
 }\n\
 .swggUiContainer .label {\n\
-    margin-bottom: 1px;\n\
-}\n\
-.swggUiContainer .operation:last-child {\n\
-    margin-bottom: 0;\n\
-}\n\
-.swggUiContainer .operation > form > div,\n\
-.swggUiContainer .operation > form > pre {\n\
-    margin-bottom: 20px;\n\
+    margin-bottom: -19px;\n\
 }\n\
 .swggUiContainer .operation > form > .button {\n\
-    margin: 50px 0;\n\
+    margin: 40px 0 20px 0;\n\
 }\n\
 .swggUiContainer .resource > ol,\n\
 .swggUiContainer .resource > .thead > .td,\n\
@@ -24125,8 +24123,8 @@ local.assetsDict['/assets.swgg.html'] = local.assetsDict['/assets.index.default.
 .swggUiContainer > ol {\n\
     margin-left: 0;\n\
 }\n\
-.swggUiContainer .td {\n\
-    margin-left: 20px;\n\
+.swggUiContainer .resource > ol > .description {\n\
+    margin-top: 0;\n\
 }\n\
 /* validateLineSortedReset */\n\
 /* padding */\n\
@@ -24149,7 +24147,7 @@ local.assetsDict['/assets.swgg.html'] = local.assetsDict['/assets.index.default.
     padding: 20px;\n\
 }\n\
 .swggUiContainer .operation > form {\n\
-    padding: 20px 20px 0 20px;\n\
+    padding: 0 20px;\n\
 }\n\
 .swggUiContainer .operation > form .td1 {\n\
     padding-left: 0;\n\
