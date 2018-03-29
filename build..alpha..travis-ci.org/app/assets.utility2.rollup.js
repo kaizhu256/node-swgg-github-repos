@@ -23579,6 +23579,7 @@ local.templateUiMain = '\
     style="background: none; border: 0;"\n\
 ></div>\n\
 <div class="info reset">\n\
+    {{#if info}}\n\
     {{#if info.x-swgg-homepage}}\n\
     <h2 class="hx">\n\
         <a href="{{info.x-swgg-homepage}}" target="_blank">{{info.title}} ({{info.version}})</a>\n\
@@ -23632,6 +23633,7 @@ local.templateUiMain = '\
         <li><a target="_blank" href="{{info.license.url}}">{{info.license.name}}</a></li>\n\
         {{/if info.license}}\n\
     </ul>\n\
+    {{/if info}}\n\
 </div>\n\
 {{#if urlSwaggerJson}}\n\
 <h4 class="label">nodejs initialization</h4>\n\
@@ -24222,7 +24224,6 @@ local.assetsDict['/assets.swgg.html'] = local.assetsDict['/assets.index.default.
 ' + local.templateRender(local.templateUiMain, {
     ajaxProgressText: 'loading script',
     apiKeyValue: '',
-    info: { 'title': 'title', version: 'version' },
     urlSwaggerJson: ''
 }) + '\
 </div>\n\
