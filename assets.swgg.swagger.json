@@ -1,0 +1,51 @@
+{
+    "basePath": "/",
+    "definitions": {},
+    "description": "Google Maps APIs.",
+    "externalDocs": {
+        "description": "Google Maps APIs.",
+        "url": "https://developers.google.com/maps/documentation/"
+    },
+    "info": {
+        "description": "this zero-dependency package will provide a (nodejs-compatible) swagger-client for google-all's web-apis, with a working web-demo",
+        "title": "swgg-github-repos",
+        "version": "2018.1.16",
+        "x-swgg-description": "this zero-dependency package will provide a (nodejs-compatible) swagger-client for github-repos's web-apis, with a working web-demo",
+        "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-google-all/build..beta..travis-ci.org/app/assets.app.js",
+        "x-swgg-homepage": "https://github.com/kaizhu256/node-swgg-github-repos"
+    },
+    "parameters": {
+        "google-all.key": {
+            "default": "xxxxxxxx",
+            "description": "A valid API key to handle requests for this API. If you are using OAuth 2.0 service account credentials (recommended), do not supply this parameter.",
+            "in": "query",
+            "name": "key",
+            "type": "string",
+            "x-swgg-apiKey": true
+        }
+    },
+    "paths": {},
+    "schemes": [
+        "https"
+    ],
+    "swagger": "2.0",
+    "tags": [],
+    "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-github-repos/build..beta..travis-ci.org/app/assets.app.js",
+    "x-swgg-operationIdFromPath": true,
+    "x-swgg-tags0-override": {
+        "google-maps": {
+            "description": "Google Maps APIs.",
+            "externalDocs": {
+                "description": "Google Maps APIs.",
+                "url": "https://developers.google.com/maps/documentation/"
+            }
+        },
+        "google-translate": {
+            "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
+            "externalDocs": {
+                "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
+                "url": "https://cloud.google.com/translate/docs/reference/rest"
+            }
+        }
+    }
+}
